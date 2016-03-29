@@ -1,0 +1,54 @@
+[class*="zocial-"]:before {
+	color: #000;
+	display: inline-block;
+	font-family: 'zocial', sans-serif;
+	text-shadow: 3px 3px 3px #aaa;
+	width: 2em;
+	margin: 10px auto 10px
+}
+
+body {
+	font-family: 'Quando', serif;
+	text-align: center;
+}
+
+div#name {
+	-webkit-animation-duration: 3s;
+}
+
+div#title {
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 3s;
+}
+
+div#project-title, div#social-title {
+	margin: 20px auto 0;
+	border-top: 1px solid black;
+}
+
+picture#main-pic img {
+	margin: 20px auto;
+	border-radius: 20px 20px 20px 20px;
+}
+
+picture#resume-pic img, picture#game-pic img, picture#map-pic img {
+	margin: 20px auto;
+	border-radius: 15px 15px 15px 15px;
+}
+
+@media screen and (max-width: 1199px) {
+	picture#resume-pic img, picture#game-pic img, picture#map-pic img {
+		max-width: 66.66666%;
+	}
+
+	div#logo {
+		margin-top: 30px;
+		max-width: 33.33333%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	div#name {
+		margin-top: 55px;
+	}
+}

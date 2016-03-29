@@ -1,0 +1,33 @@
+[class*="zocial-"]:before {
+	color: #000;
+	display: inline-block;
+	font-family: 'zocial', sans-serif;
+	text-shadow: 3px 3px 3px #aaa;
+	width: 2em;
+	margin: 10px auto 10px
+}
+
+div {
+	border:  1px solid red;
+}
+
+body {
+	font-family: 'Quando', serif;
+	text-align: center;
+	background-color: white;
+}
+
+div#main-div {
+	height: 100vw;
+}
+
+picture#main-pic img {
+	margin-top: auto;
+	margin-bottom: auto;
+	vertical-align: center;
+	text-align: center;
+}
+
+div#project-div {
+	min-height: 33.3333vw;
+	vertical-align: center auto}
